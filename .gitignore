@@ -1,3 +1,4 @@
 # ignore macos files,
 *.DS_Store
 Icon?
+.DS_Store
