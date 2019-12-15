@@ -17,7 +17,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="25"/>
+                <sel id="24"/>
             </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -33,15 +33,29 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="25"/>
                 <child id="24"/>
                 <child id="22"/>
                 <child id="21"/>
                 <child id="23"/>
                 <child id="20"/>
+                <child id="5"/>
                 <child id="8"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
+        </object>
+        <object class="WED_Group" id="5" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="/Users/johnbray/MyApps/X-Plane 10 VATSIM/Custom Scenery/Redsands Maunsell Forts/Earth nav data/+50+000/+51+000.dsf"/>
+        </object>
+        <object class="WED_Group" id="7" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Objects"/>
         </object>
         <object class="WED_Airport" id="8" parent_id="4">
             <sources/>
@@ -91,7 +105,7 @@
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="RedsandsMainStructures"/>
+            <hierarchy hidden="0" locked="0" name="Redsands.obj"/>
             <point heading="-50.00" latitude="51.477100000" longitude="0.990700000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/Redsands.obj" show_level="1 Default"/>
         </object>
@@ -99,7 +113,7 @@
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="RedsandsControlTowerPad"/>
+            <hierarchy hidden="0" locked="0" name="ControlTowerPad"/>
             <point heading="-50.00" latitude="51.477100000" longitude="0.990700000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/RedsandsControlTowerPad.obj" show_level="1 Default"/>
         </object>
@@ -107,7 +121,7 @@
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="RedsandsBoforsTowerPad"/>
+            <hierarchy hidden="0" locked="0" name="BoforsTowerPad"/>
             <point heading="-50.00" latitude="51.477100000" longitude="0.990700000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/RedsandsBoforsTowerPad.obj" show_level="1 Default"/>
         </object>
@@ -115,7 +129,7 @@
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="RedsandsSearchlightTowerPad"/>
+            <hierarchy hidden="0" locked="0" name="RedsandsSearchlightTowerPad.obj"/>
             <point heading="-50.00" latitude="51.477100000" longitude="0.990700000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/RedsandsSearchlightTowerPad.obj" show_level="1 Default"/>
         </object>
@@ -123,50 +137,24 @@
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="RedsandsGunTowersPads"/>
+            <hierarchy hidden="0" locked="0" name="RedsandsGunTowers.obj"/>
             <point heading="-50.00" latitude="51.477100000" longitude="0.990700000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/RedsandsGunTowers.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ExclusionZone" id="25" parent_id="4">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="26"/>
-                <child id="27"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="26" parent_id="25">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="51.478582252" longitude="0.988459383"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="27" parent_id="25">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="51.475600443" longitude="0.992988215"/>
         </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed"/>
         <pref name="doc/export_target" value="3"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="0.994871"/>
-        <pref name="map/north" value="51.479671"/>
+        <pref name="map/east" value="0.992306"/>
+        <pref name="map/north" value="51.477685"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="51.474566"/>
+        <pref name="map/south" value="51.476278"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="0.986909"/>
+        <pref name="map/west" value="0.989416"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -234,13 +222,13 @@
         <pref name="map_Tower Viewpoint_Tower Height" value="25.000000"/>
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="712"/>
+        <pref name="window/height" value="741"/>
         <pref name="window/main_split" value="290"/>
-        <pref name="window/main_split2" value="1042"/>
-        <pref name="window/prev_split" value="375"/>
-        <pref name="window/prop_split" value="388"/>
-        <pref name="window/width" value="1652"/>
-        <pref name="window/x_loc" value="176"/>
-        <pref name="window/y_loc" value="909"/>
+        <pref name="window/main_split2" value="1284"/>
+        <pref name="window/prev_split" value="365"/>
+        <pref name="window/prop_split" value="454"/>
+        <pref name="window/width" value="1894"/>
+        <pref name="window/x_loc" value="62"/>
+        <pref name="window/y_loc" value="1040"/>
     </prefs>
 </doc>
